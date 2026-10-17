@@ -1,8 +1,8 @@
 {
  "v": 1,
- "ts": 1792208571,
+ "ts": 1792208941,
  "stale_after": 300,
- "updated": "Oct 16, 10:42 PM CT",
+ "updated": "Oct 16, 10:49 PM CT",
  "counts": {
   "error": 0,
   "working": 0,
@@ -23,7 +23,7 @@
  "board": null,
  "teams": [],
  "glance": {
-  "asof": "22:42",
+  "asof": "22:49",
   "goals": [
    {
     "key": "g480p",

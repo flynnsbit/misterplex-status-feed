@@ -1,1 +1,126 @@
-{"v":1,"ts":1792201649,"stale_after":5400,"updated":"Oct 16, 8:47 PM CT","counts":{"error":0,"working":2,"idle":37,"paused":1,"total":40},"hubs":[{"key":"misterplex","n":11,"w":0}],"pepper":{"name":"Pepper Potts","role":"Chief of Staff","status":"working","label":"Working","when":"Oct 16, 8:43 PM CT","task":"No current task","tcls":"none","av":"a-pepper-potts","mark":{"shape":"tablet","color":"magenta","ini":"PP"},"lead":true,"now":[{"item":"fleet manager glass running 2 legs n1 n2 lease build/welp 0 runnable","engine":"grok fleet manager","note":"23:01"},{"item":"fleet manager glass waiting 7 tasks next then","engine":"grok fleet manager","note":"22:45"},{"item":"fleet manager glass waiting 7 tasks next then 056-c963; lease free","engine":"grok fleet manager","note":"22:23"},{"item":"fleet manager shared-av-sync-all-modes (b) on server 1 (c) welp; glass 049","engine":"grok fleet manager","note":"22:00"}]},"engines":[{"name":"local model","cls":"idle","blk":false,"label":"Idle","now":"no job running","next":"queue empty","asof":"as of 11:25 PM CT","history":[{"when":"Oct 13, 10:55 PM","item":"noproxy direct pms","result":"fail","ref":"noproxy-direct-pms-uri"},{"when":"Oct 13, 10:53 PM","item":"noproxy direct pms phase 2 of 3, try 1","result":"fail","ref":"noproxy-direct-pms-uri"},{"when":"Oct 13, 10:49 PM","item":"noproxy direct pms phase 1 of 3, try 1","result":"pass","ref":"companion.cpp"},{"when":"Oct 13, 10:34 PM","item":"noproxy direct remote v2","result":"fail","ref":""},{"when":"Oct 13, 10:32 PM","item":"noproxy direct remote v2, phase 2 of 3, try 2","result":"pass","ref":"media_player.cpp"}],"mark":{"shape":"squircle","color":"cyan","ini":"LM"}},{"name":"build lane","cls":"idle","blk":false,"label":"Idle","now":"no job running; last spsrelax analog v10 fit done","next":"queue empty","asof":"as of 11:24 PM CT","history":[{"when":"Oct 13, 9:14 PM","item":"batch integrate 1013 2052, blocked in review","result":"started","ref":""},{"when":"Oct 13, 8:52 PM","item":"batch integrate 1013 2052, edit","result":"started","ref":""},{"when":"Oct 13, 8:20 PM","item":"spsrelax analog v10 fit","result":"done","ref":"spsrelax-analog-v10-fit"},{"when":"Oct 13, 7:18 PM","item":"spsrelax analog v10 fit, edit","result":"started","ref":"spsrelax-analog-v10-fit"},{"when":"Oct 13, 7:18 PM","item":"480i 240p glass coverage, blocked in review","result":"started","ref":""}],"mark":{"shape":"squircle","color":"violet","ini":"BL"}},{"name":"review lane","cls":"idle","blk":false,"label":"Idle","now":"two jobs, no job running; last qrev 381 480i 240p letterbox r0 done; no job running\u2026","next":"selfrev c562 letterbox osd (4 more queued)","asof":"as of 11:24 PM CT","history":[{"when":"Oct 13, 9:41 PM","item":"qrev 381 480i 240p letterbox r0, review done, blocked local model task, fix queued","result":"done","ref":""},{"when":"Oct 13, 9:29 PM","item":"selfrev c963 batch integrate 1013 2052, review done, blocked build, fix queued","result":"done","ref":"c964-selfrev-c963.md"},{"when":"Oct 13, 9:29 PM","item":"qrev 381 480i 240p letterbox r0, plan","result":"started","ref":""},{"when":"Oct 13, 9:27 PM","item":"qrev 380 480i 240p rbf switch r0, review done, blocked local model task, fix queued","result":"done","ref":""},{"when":"Oct 13, 9:16 PM","item":"qrev 380 480i 240p rbf switch r0, plan","result":"started","ref":""}],"mark":{"shape":"squircle","color":"blue","ini":"RL"}},{"name":"CABAC and B-frames bot","cls":"idle","blk":false,"label":"Idle","now":"last High gate port for main prepared and tested on my computer, ready to apply when the\u2026","next":"Collect the OSD id fits, finish the second High core row on the daemon branch and\u2026","asof":"as of 7:48 PM CT","history":[{"when":"7:48 PM","item":"High gate port for main prepared and tested on my computer, ready to apply when the freeze lifts","result":"done","ref":""},{"when":"7:27 PM","item":"Batch verdict sent to Pepper, daemon only fix needed for the zero frames issue, waiting for the freeze to lift","result":"done","ref":""},{"when":"Oct 12, 1:03 AM","item":"Daemon now recognizes the relaxed prod core, staged and sent for review and glass","result":"done","ref":""},{"when":"Oct 12, 12:10 AM","item":"Prod core relaxed to accept NVENC Baseline streams, sim pixel exact and timing closed, daemon gate update","result":"done","ref":""},{"when":"Oct 12, 12:06 AM","item":"High daemon direct play fix staged, remote server 2 plays direct again with a one-ref transcode fallback,","result":"done","ref":""}],"mark":{"shape":"squircle","color":"green","ini":"CF"}},{"name":"Lab MiSTer glass","cls":"working","blk":false,"label":"Working","now":"overnight glass lane lab build glass task, started 22h13","next":"next lab build glass task","asof":"as of 10:13 PM CT","history":[{"when":"Oct 13, 11:21 PM","item":"lab build glass task fail, prod restore fail","result":"fail","ref":""}],"mark":{"shape":"squircle","color":"cyan","ini":"LG"}},{"name":"Grok bots","cls":"idle","blk":false,"label":"Idle","now":"idle by design: standing 4-hour local model backlog refill","next":"next check-in 22:59","asof":"as of 6:59 PM CT","history":[],"mark":{"shape":"squircle","color":"violet","ini":"GB"}}],"gate":{"name":"Security Engineer","role":"Review gate for anything public","status":"paused","label":"Paused","when":"Oct 16, 7:53 PM CT","task":"Last: pepper stopped the status-publish timer at confirmed the","tcls":"","av":"a-security-engineer","mark":{"shape":"hex","color":"brown","ini":"SE"},"lead":false,"on":false,"gline":"Paused"},"live":[],"alerts":[],"pdata":true,"blocked":["fleet manager 048-standing-noprofile fail h1 22.81fps -46.0db j1 21.51fps -55.7db home+remote server 1","fleet manager 048-standing-noprofile fail h1 22.81fps -46.0db j1 21.51fps -55.7db home+remote server 1; prod","fleet manager 048-standing-noprofile fail h1 22.81fps -46.0db j1 21.51fps -55.7db; prod restore fail","fleet manager 048-standing-noprofile fail h1 22.81fps -46.0db j1 21.51fps -55.7db g1 0.01fps prod restore","Stop ship in effect so releases and merges stay frozen until a valid retest passes","Remote Server 2 sends High profile (CABAC, B-frames). Study: it does not fit the 480p core (needs about 9-15K more logic, 6.3K free). Fix it server-side with the MiSTerPlex profile","Analog capture on lab MiSTer is black and silent (capture path, not WEDGE). being fixed tonight; HDMI-only checks until then"],"ff":{"line":"1 fixed \u00b7 27 open","line24":"Last 24 hours: 2 done","upd":"Oct 16, 8:47 PM CT","groups":{"ff":[{"found":"review blocked, qrev 381 480i 240p letterbox r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, selfrev c963 batch integrate 1013 2052","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 380 480i 240p rbf switch r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 379 480i 240p core id se r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 378 shared bounded reope r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 377 shared letterbox cro r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, selfrev c940 480i 240p glass coverage","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 376 shared active height r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 375 shared stalled pic w r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, selfrev c939 noprofile all modes","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 374 shared fps gate r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, selfrev c949 batch integrate 1013 1828","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, selfrev c937 batch integrate 1013 1525","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 372 480i bitrate floor r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 371 480i sps reject code r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 370 240p audio lead clam r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 368 480i letterbox crop r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 366 480p audio lead clam r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 367 480p sps reject code r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 365 240p audio queue bou r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 364 480i pts wrap guard r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 363 companion timeline t r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 359 480p audio queue bou r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, selfrev c785 fix 480i audio pts bind r1","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 357 480p direct proxy","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 358 480p pts wrap guard r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"review blocked, qrev 355 stalled picture watc r0","fixed":"No fix queued yet","cls":"open","lab":"Open","area":""},{"found":"batch verdict sent to Pepper, daemon only fix needed for the zero frames issue, waiting","fixed":"CABAC bot fixed it","cls":"ok","lab":"Fixed","area":""}],"l24":[{"kind":"done","item":"CABAC bot, high gate port for main prepared and tested on my computer, ready to apply when the","when":"7:48 PM"},{"kind":"done","item":"CABAC bot, batch verdict sent to Pepper, daemon only fix needed for the zero frames issue, waiting","when":"7:27 PM"}],"ok":null,"prog":null,"blk":null}},"road":{"upd":"Oct 16, 8:47 PM CT","phases":[{"name":"Phase 1: Stable 480p MVP","items":[{"st":"prog","rank":null,"text":"480p prod on lab MiSTer","par":false},{"st":"prog","rank":null,"text":"Browse/helper MVP","par":false},{"st":"prog","rank":null,"text":"WEDGE hang counters","par":false},{"st":"prog","rank":null,"text":"Respawn/guard install","par":false},{"st":"prog","rank":null,"text":"50/55 MHz speed (D52 soak)","par":false}]},{"name":"Phase 2: No proxy for owned + Baseline servers","items":[{"st":"prog","rank":null,"text":"Deblock + P sub-partitions core","par":false},{"st":"prog","rank":null,"text":"Remote no-proxy playback proof","par":false},{"st":"prog","rank":null,"text":"First-cast + startup-time fixes","par":false},{"st":"prog","rank":null,"text":"SPS relax","par":false},{"st":"prog","rank":null,"text":"Cropping + letterbox","par":false}]},{"name":"Phase 3: NVENC servers direct play","items":[{"st":"prog","rank":null,"text":"Plex Pass","par":false},{"st":"prog","rank":null,"text":"Multi-reference P frames","par":false},{"st":"todo","rank":null,"text":"NVENC server glass test","par":false}]},{"name":"Phase 4: Any server (High profile)","items":[{"st":"prog","rank":null,"text":"CABAC / B-frames / 8x8 area study","par":false},{"st":"prog","rank":null,"text":"High profile core (separate)","par":false}]},{"name":"Also: 480i and 240p","items":[{"st":"prog","rank":null,"text":"240p in prod","par":false},{"st":"todo","rank":null,"text":"480i fit + A7 glass","par":false}]}]},"board":{"next":[{"rank":0,"text":"fleet manager build shared-av-sync-all-modes (b) base welp noproxy-direct-main (c) glass","par":false},{"rank":0,"text":"fleet manager glass 049 noproxy home + remote server 1 (c); glass 056 c963 480p legs (a)","par":false},{"rank":0,"text":"fleet manager build c n -shared-av-sync-all-modes (b) base welp q n (c)","par":false},{"rank":0,"text":"fleet manager glass 049 noproxy home+remote server 1 (c); glass 056 c963 480p legs (a); noprofile all-modes","par":false},{"rank":1,"text":"split of work: local model does support work; Cursor build lane does core logic, fits and integration; review lane (grok cli, supergrok) reviews every job","par":false},{"rank":2,"text":"goal 1, bugs on glass: the Cursor build lane finishes the WEDGE recovery fixes; the review lane (grok cli, supergrok) does the delta re-review","par":false},{"rank":3,"text":"goal 1: fifth element early stop: the local model adds a bounded reopen at the current position (never from the start), the Cursor build lane audits the cause, builds and queues glass","par":false},{"rank":4,"text":"goal 1: letterbox lab core: the Cursor build lane fits the lab core; the local model readies the daemon side; it builds the pair and queues the black bars glass test","par":false},{"rank":5,"text":"goal 1: the local model adds a time to first picture breakdown and a stalled picture watchdog to the daemon","par":false},{"rank":6,"text":"goal 2, proxy-free decode: the Cursor build lane runs the multi-ref P chain in 3 jobs; the local model adds a per-title direct or proxy policy and SPS reject tests","par":false},{"rank":7,"text":"goal 2: candidate daemon with SPS relax and crop, WEDGE recovery, prewarm fix and reviewed local model daemon fixes, then glass","par":false},{"rank":8,"text":"goal 3, 480i and 240p prep: the local model ports letterbox math, bitrate floors and fps gate tests to those rows; the Cursor build lane preps the core side","par":false},{"rank":9,"text":"local model: 10 daemon tasks queued first, then the small tools; both lanes refill from ranked backlogs (daemon section first for the local model)","par":false},{"rank":10,"text":"review lane (grok cli, supergrok) queue, qrev 285 remote http range","par":false},{"rank":11,"text":"review lane (grok cli, supergrok) queue, selfrev c562 letterbox osd","par":false}],"backlog":[{"rank":12,"text":"goal 1 bug, high priority: plex web playbar never moves during a cast; player time is right, so it is the companion timeline protocol. local model fix with unit test, review lane review","par":false},{"rank":13,"text":"High profile core (separate): CABAC engine, 2-clock bins, context init (queued on the local model)","par":false},{"rank":14,"text":"480i: fit new core ID, A7 glass + lip sync","par":false},{"rank":15,"text":"H.264 golden test set","par":false},{"rank":16,"text":"Triage 146 dirty worktrees; close old PRs #14-23","par":false},{"rank":17,"text":"NVENC direct play glass test (Plex Pass active)","par":false},{"rank":18,"text":"Bug intake top items: playback does not resume after a respawn; daemon death leaves the last frame up","par":false}]},"teams":[{"key":"misterplex","n":11,"leads":[{"name":"MisterPlex 240p Lead","role":"240p line lead","status":"idle","label":"Idle","when":"Oct 10, 5:17 PM CT","task":"Last: shipped its core to prod, glass pass","tcls":"","av":null,"mark":{"shape":"circle","color":"p1","ini":"ML"},"lead":true},{"name":"MisterPlex 480i Lead","role":"480i line lead","status":"idle","label":"Idle","when":"Oct 16, 8:11 PM CT","task":"Waiting for a kickoff from Pepper","tcls":"","av":null,"mark":{"shape":"circle","color":"p5","ini":"ML"},"lead":true}],"members":[{"name":"H264 Expert","role":"Video decoder expert","status":"idle","label":"Idle","when":"Oct 16, 7:26 PM CT","task":"Last: owenb port review question sent to fpga bug","tcls":"","av":null,"mark":{"shape":"tablet","color":"violet","ini":"HE"},"lead":false},{"name":"MisterCast","role":"Streaming to the MiSTer","status":"idle","label":"Idle","when":"Oct 16, 8:47 PM CT","task":"Waiting for a kickoff from Pepper","tcls":"","av":null,"mark":{"shape":"circle","color":"p0","ini":"M"},"lead":false},{"name":"MisterFPGA Developer","role":"MiSTer core developer","status":"idle","label":"Idle","when":"Oct 10, 12:01 PM CT","task":"Waiting for a kickoff from Pepper","tcls":"","av":null,"mark":{"shape":"teardrop","color":"blue","ini":"MD"},"lead":false},{"name":"MisterPlex CABAC + B-frames","role":"","status":"idle","label":"Idle","when":"Oct 11, 10:30 AM CT","task":"Last: CABAC study done, recommends a server-side profile","tcls":"","av":null,"mark":{"shape":"circle","color":"p1","ini":"MF"},"lead":false},{"name":"Castor the Herdr","role":"Runs the coding harnesses at home","status":"idle","label":"Idle","when":"Oct 16, 8:11 PM CT","task":"No current task","tcls":"none","av":"a-castor-the-herdr","mark":{"shape":"circle","color":"p4","ini":"CH"},"lead":false},{"name":"Cursor Box","role":"Heavy RTL and simulation","status":"idle","label":"Idle","when":"Oct 10, 1:11 PM CT","task":"No current task","tcls":"none","av":"a-cursor-box","mark":{"shape":"wedge","color":"red","ini":"CB"},"lead":false},{"name":"FPGA Bug","role":"RTL reviewer","status":"idle","label":"Idle","when":"Oct 10, 12:01 PM CT","task":"No current task","tcls":"none","av":null,"mark":{"shape":"hex","color":"green","ini":"FB"},"lead":false},{"name":"FPGA Developer","role":"FPGA core builder","status":"idle","label":"Idle","when":"Oct 16, 8:11 PM CT","task":"No current task","tcls":"none","av":null,"mark":{"shape":"blob","color":"black","ini":"FD"},"lead":false},{"name":"MisterPlex Status Keeper","role":"","status":"idle","label":"Idle","when":"Oct 11, 10:31 AM CT","task":"No current task","tcls":"none","av":null,"mark":{"shape":"circle","color":"p0","ini":"MK"},"lead":false}]}],"glance":{"asof":"20:45","goals":[{"key":"g480p","state":"active","verified":0,"total":0,"glass":4},{"key":"g480i","state":"blocked","verified":0,"total":0,"glass":1},{"key":"g240p","state":"blocked","verified":0,"total":0,"glass":1}],"now":[{"key":"cursor","state":"running","task":"solo Grok F513 FAIL 155 \u2014 retry menu core-switch after lease","goal":"g480p","for":"chief-of-staff"},{"key":"glass","state":"running","task":"F513 FAIL f513 menu-switch \u2014 overall=fail before legs (lease/wedge); chief retry","goal":"g480p","for":""},{"key":"review1","state":"idle","task":"","goal":"","for":""},{"key":"review2","state":"idle","task":"","goal":"","for":""},{"key":"welp","state":"idle","task":"","goal":"","for":""},{"key":"manager","state":"idle","task":"","goal":"","for":""}],"next":[{"goal":"g480i","items":["F399 PASS 123 \u2014 NVENC path signed off"]}],"blocked":[{"goals":["g480p"],"text":"F264 overall=fail cast companion PASS; post-cast 240p/480i loadside only (not cast gate)"},{"goals":["g480p"],"text":"F267 superseded \u2014 use F272 only do not glass"},{"goals":["g480p"],"text":"F209 FAIL 084 analog max=7 on v12 idle reglass; F120 075 HDMI verified"},{"goals":["g480p"],"text":"Phase-1 reclaim waits owner-DATA-OK; has headroom now"},{"goals":["g480i"],"text":"F277 480i NVENC \u2014 NOT ROUTED then trim NOT-CLOSED NEGSLACK"},{"goals":["g480p"],"text":"F338 FAIL 114 goal-e osd_metric overlay_us_p=0 on 480p matrix incomplete"}],"done":[],"glass":[{"when":"10/14 16:53","task":"056b analog v11 (ALSA busy, analog_missing)","goal":"g480p","fps":"n/a","result":"fail"},{"when":"10/14 17:03","task":"F001 240p menu/OSD HDMI (f001)","goal":"g240p","fps":"MENU 81.3","result":"pass"},{"when":"10/14 17:14","task":"F002 480i menu/OSD HDMI (f002)","goal":"g480i","fps":"MENU 81.4","result":"pass"},{"when":"10/14 19:12","task":"F031 idle-error re-test (f031 idle error paints)","goal":"g480p","fps":"HDMI PASS / analog max=7","result":"fail"},{"when":"10/14 19:28","task":"F100 leg2 BBB noprofile (f020 task059 leg2)","goal":"g480p","fps":"PASS GQ_ANALOG scorer","result":"pass"},{"when":"10/14 19:43","task":"F006 240p matrix (f006 240p matrix remote server 1 J1)","goal":"g240p","fps":"H1 PASS / J1 audio -55.3","result":"fail"},{"when":"10/14 19:57","task":"F006 240p matrix reglass (f006 240p matrix)","goal":"g240p","fps":"H1 18.48 PASS / J1 -55.5 FAIL","result":"fail"},{"when":"10/14 20:05","task":"F006 480i matrix (f006 480i matrix)","goal":"g480i","fps":"H1 36.42 PASS / J1 -55.3 FAIL","result":"fail"},{"when":"10/14 20:17","task":"F006 480p matrix f006 480p matrix","goal":"g480p","fps":"H1 19.38 / J1 20.48 PASS","result":"pass"},{"when":"10/14 20:24","task":"F006 480i matrix analog (f006 480i matrix analog)","goal":"g480i","fps":"H1 36.75 / J1 -55.4 PASS","result":"pass"},{"when":"10/14 20:34","task":"F006 240p J1 reglass (f006 240p-J1-retry)","goal":"g240p","fps":"J1 20.22 / -55.3 PASS","result":"pass"}]}}
+{
+ "v": 1,
+ "ts": 1792201712,
+ "stale_after": 300,
+ "updated": "Oct 16, 8:48 PM CT",
+ "counts": {
+  "error": 0,
+  "working": 0,
+  "idle": 0,
+  "paused": 0,
+  "total": 0
+ },
+ "alerts": [],
+ "hubs": [],
+ "pepper": null,
+ "engines": [],
+ "gate": null,
+ "live": [],
+ "pdata": false,
+ "blocked": [],
+ "ff": null,
+ "road": null,
+ "board": null,
+ "teams": [],
+ "glance": {
+  "asof": "20:48",
+  "goals": [
+   {
+    "key": "g480p",
+    "state": "active",
+    "verified": 4,
+    "total": 5,
+    "glass": 16
+   },
+   {
+    "key": "g480i",
+    "state": "quiet",
+    "verified": 2,
+    "total": 2,
+    "glass": 3
+   },
+   {
+    "key": "g240p",
+    "state": "quiet",
+    "verified": 3,
+    "total": 3,
+    "glass": 4
+   },
+   {
+    "key": "ghigh",
+    "state": "active",
+    "verified": 1,
+    "total": 2,
+    "glass": 2
+   },
+   {
+    "key": "gui",
+    "state": "quiet",
+    "verified": 2,
+    "total": 2,
+    "glass": 2
+   }
+  ],
+  "now": [
+   {
+    "key": "glass",
+    "state": "idle",
+    "task": "",
+    "goal": "",
+    "for": ""
+   },
+   {
+    "key": "cursor",
+    "state": "idle",
+    "task": "",
+    "goal": "",
+    "for": ""
+   },
+   {
+    "key": "review1",
+    "state": "idle",
+    "task": "",
+    "goal": "",
+    "for": ""
+   },
+   {
+    "key": "review2",
+    "state": "idle",
+    "task": "",
+    "goal": "",
+    "for": ""
+   },
+   {
+    "key": "welp",
+    "state": "idle",
+    "task": "chief-of-staff: Fleet Chief of Staff",
+    "goal": "",
+    "for": ""
+   },
+   {
+    "key": "manager",
+    "state": "idle",
+    "task": "",
+    "goal": "",
+    "for": ""
+   }
+  ],
+  "next": [],
+  "blocked": [
+   {
+    "goals": [
+     "ghigh"
+    ],
+    "text": "superseded \u2014 use only (); do not glass /"
+   },
+   {
+    "goals": [
+     "g480p"
+    ],
+    "text": "Phase-1 reclaim waits ; has headroom now"
+   }
+  ],
+  "done": [],
+  "glass": []
+ }
+}

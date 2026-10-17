@@ -1,8 +1,8 @@
 {
  "v": 1,
- "ts": 1792211707,
+ "ts": 1792212029,
  "stale_after": 300,
- "updated": "Oct 16, 11:35 PM CT",
+ "updated": "Oct 16, 11:40 PM CT",
  "counts": {
   "error": 0,
   "working": 0,
@@ -23,7 +23,7 @@
  "board": null,
  "teams": [],
  "glance": {
-  "asof": "23:35",
+  "asof": "23:40",
   "goals": [
    {
     "key": "g480p",
@@ -93,7 +93,7 @@
    {
     "key": "welp",
     "state": "idle",
-    "task": "",
+    "task": "chief-of-staff: Fleet Chief of Staff",
     "goal": "",
     "for": ""
    },
